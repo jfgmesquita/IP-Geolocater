@@ -28,5 +28,6 @@ with streamlit.form(key = "Qualquer coisa"):
         except:
             streamlit.write("O formato de IP introduzido é inválido.")
 
-# Depois de correr o ficheiro, escrever separadamente no terminal: pip install requests, pip install streamlit, pip install ipadrass
-# streamlit run "c:/Users/jolit/OneDrive/Ambiente de Trabalho/Geolocalização de IP's.py" - As aspas são necessárias porque o ficheiro está no OneDrive
+# Depois de correr o ficheiro, escrever, em linhas diferentes, no terminal: pip install requests, pip install streamlit, pip install pandas, pip install ipadress
+# Finalmente, escrever: streamlit run *caminho*
+# No código de cima, não esquercer de pôr o caminho entre aspas caso este se localize no OneDrive!
