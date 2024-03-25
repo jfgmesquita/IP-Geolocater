@@ -1,4 +1,4 @@
-import requests, streamlit, pandas, ipaddress
+rimport requests, streamlit, pandas, ipaddress
 
 streamlit.set_page_config(page_title = "Geolocalização de IP's")
 streamlit.write("# Geolocalização de IP's")
@@ -28,6 +28,4 @@ with streamlit.form(key = "Qualquer coisa"):
         except:
             streamlit.write("O formato de IP introduzido é inválido.")
 
-# Depois de correr o ficheiro, escrever, em linhas diferentes, no terminal: pip install requests, pip install streamlit, pip install pandas, pip install ipadress
-# Finalmente, escrever: streamlit run *caminho*
-# No código de cima, não esquercer de pôr o caminho entre aspas caso este se localize no OneDrive!
+# Se necessário, escrever separadamente no terminal: pip install requests, pip install streamlit, pip install pandas, pip install ipadress
