@@ -29,4 +29,3 @@ with streamlit.form(key = "Qualquer coisa"):
             streamlit.write("O formato de IP introduzido é inválido.")
 
 # Se necessário, escrever separadamente no terminal: pip install requests, pip install streamlit, pip install pandas, pip install ipadress
-# Caso o ficheiro se localize no OneDrive, não esquercer de pôr o seu caminho entre aspas no comando para ver o programa Streamlit no browser.
