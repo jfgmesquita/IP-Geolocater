@@ -1,14 +1,14 @@
 # IP Geolocater in Python
 
-#### Using Visual Code Studio
+#### Using Visual Studio Code
 
 ***
 
 Simple application that geolocates IP addresses, designed to learn how to create a Python application with a graphical interface using Streamlit.
 
-##### If necessary, type separately in the terminal:
+The following libraries are required: requests, streamlit, pandas, and ipaddress.
 
-`pip install requests`, `pip install streamlit`, `pip install pandas` and `pip install ipaddress`
+If you need to install them, use the following commands: `pip install requests`, `pip install streamlit`, `pip install pandas` and `pip install ipaddress`
 
 ***
 
